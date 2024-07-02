@@ -53,7 +53,6 @@ class SkeletonAvatar extends StatelessWidget {
                       style.maxHeight ?? constraints.maxHeight)
                   : style.height,
               decoration: BoxDecoration(
-                color: Theme.of(context).colorScheme.backgroundColor,
                 shape: style.shape,
                 borderRadius:
                     style.shape != BoxShape.circle ? style.borderRadius : null,
